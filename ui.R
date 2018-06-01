@@ -40,8 +40,8 @@ shinyUI(
                              p("Please upload a text file from the left side panel by clicking on browse button"),
                              h4('Hint'),
                              p(span(strong(" 1) We suggest make use of smaller size text files"))),
-                             p(span(strong(" 2) This app takes time to load the respective tab content. So Kindly wait for sometime so that the content is displayed on respective tab.",align="justify"))),
-                             
+                             p(span(strong(" 2) This app takes time to load the respective tab content. So Kindly wait for sometime so that the content is displayed on respective tab.",align="justify")))
+                              ),
                              
                     tabPanel("annotated documents",
                              dataTableOutput('anot'),
