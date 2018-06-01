@@ -1,12 +1,12 @@
-try{require(shiny)||install.packages('shiny')}
-try{require(udpipe)||install.packages("udpipe")}
-try { require(textrank)||install.packages("textrank")}
-try { require(lattice) ||install.packages("lattice")}
-try { require(igraph) || install.packages("igraph")}
-try { require(ggraph) || install.packages("ggraph")}
-try { require(wordcloud) || install.packages("wordcloud")}
-try { require(wordcloud) || install.packages("DT")}
-try { require(stringr) || install.packages("stringr")}
+if (!require(shiny)) {install.packages('shiny')}
+if (!require(udpipe)){install.packages("udpipe")}
+if (!require(textrank)){install.packages("textrank")}
+if (!require(lattice)){install.packages("lattice")}
+if (!require(igraph)){install.packages("igraph")}
+if (!require(ggraph)){install.packages("ggraph")}
+if (!require(wordcloud)){install.packages("wordcloud")}
+if (!require(wordcloud)){install.packages("DT")}
+if (!require(stringr)){install.packages("stringr")}
 
 library(udpipe)
 library(textrank)
