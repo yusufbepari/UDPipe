@@ -66,7 +66,7 @@ shinyServer(function(input, output, session) {
         geom_node_text(aes(label = name),col = "darkgreen",size = 4)+
         theme_graph(base_family = "Arial Narrow")+
         theme(legend.position = "none")+
-        labs(title = " Cooccurrences Plot", subtitle = "Nouns&Adjectives")
+        labs(title = " Cooccurrences Plot", subtitle = "  Co-occurence graph of selected" )
       }
     })
   })
