@@ -6,7 +6,7 @@ try { require(igraph) || install.packages("igraph")}
 try { require(ggraph) || install.packages("ggraph")}
 try { require(wordcloud) || install.packages("wordcloud")}
 try { require(wordcloud) || install.packages("DT")}
-try {require(stringr) || install.packages("stringr")}
+try { require(stringr) || install.packages("stringr")}
 
 library(udpipe)
 library(textrank)
