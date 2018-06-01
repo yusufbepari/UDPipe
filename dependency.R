@@ -8,6 +8,7 @@ if (!require(wordcloud)){install.packages("wordcloud")}
 if (!require(wordcloud)){install.packages("DT")}
 if (!require(stringr)){install.packages("stringr")}
 
+
 library(udpipe)
 library(textrank)
 library(lattice)
