@@ -1,5 +1,5 @@
-try { require(shiny) || install.packages('shiny')}
-try { require(udpipe) || install.packages("udpipe")}
+try{require(shiny)||install.packages('shiny')}
+try{require(udpipe)||install.packages("udpipe")}
 try { require(textrank)||install.packages("textrank")}
 try { require(lattice) ||install.packages("lattice")}
 try { require(igraph) || install.packages("igraph")}
