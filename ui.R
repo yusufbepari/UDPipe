@@ -41,10 +41,8 @@ shinyUI(
                              h4('Hint'),
                              p(span(strong(" 1) We suggest make use of smaller size text files"))),
                              p(span(strong(" 2) This app takes time to load the respective tab content. So Kindly wait for sometime so that the content is displayed on respective tab.",align="justify"))),
-                             br(),
-                             p('To use this app, click on', 
-                               span(strong("Upload data (csv file with header)")),
-                               'and uppload the csv data file. You can also change the number of clusters to fit in k-means clustering')),
+                             
+                             
                     tabPanel("annotated documents",
                              dataTableOutput('anot'),
                              br(),
